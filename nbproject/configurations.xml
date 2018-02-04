@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath></itemPath>
+      <itemPath>Alfil.h</itemPath>
+      <itemPath>Caballo.h</itemPath>
+      <itemPath>Casillas.h</itemPath>
+      <itemPath>Peon.h</itemPath>
+      <itemPath>Piezas.h</itemPath>
+      <itemPath>Reina.h</itemPath>
+      <itemPath>Rey.h</itemPath>
+      <itemPath>Tablero.h</itemPath>
+      <itemPath>Torre.h</itemPath>
+      <itemPath>bmp.h</itemPath>
+      <itemPath>igvCamara.h</itemPath>
+      <itemPath>igvColor.h</itemPath>
+      <itemPath>igvEscena3D.h</itemPath>
+      <itemPath>igvFuenteLuz.h</itemPath>
+      <itemPath>igvInterfaz.h</itemPath>
+      <itemPath>igvMallaTriangulos.h</itemPath>
+      <itemPath>igvMaterial.h</itemPath>
+      <itemPath>igvPunto3D.h</itemPath>
+      <itemPath>igvTextura.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>Alfil.cpp</itemPath>
+      <itemPath>Caballo.cpp</itemPath>
+      <itemPath>Peon.cpp</itemPath>
+      <itemPath>Piezas.cpp</itemPath>
+      <itemPath>Reina.cpp</itemPath>
+      <itemPath>Rey.cpp</itemPath>
+      <itemPath>Tablero.cpp</itemPath>
+      <itemPath>Torre.cpp</itemPath>
+      <itemPath>bmp.cpp</itemPath>
+      <itemPath>igvCamara.cpp</itemPath>
+      <itemPath>igvColor.cpp</itemPath>
+      <itemPath>igvEscena3D.cpp</itemPath>
+      <itemPath>igvFuenteLuz.cpp</itemPath>
+      <itemPath>igvInterfaz.cpp</itemPath>
+      <itemPath>igvMallaTriangulos.cpp</itemPath>
+      <itemPath>igvMaterial.cpp</itemPath>
+      <itemPath>igvPunto3D.cpp</itemPath>
+      <itemPath>igvTextura.cpp</itemPath>
+      <itemPath>pr4.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <linkerTool>
+          <commandLine>-static -lglut32 -lopengl32 -lglu32</commandLine>
+        </linkerTool>
+      </compileType>
+      <item path="" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Alfil.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Alfil.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Caballo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Caballo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Casillas.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Peon.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Peon.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Piezas.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Piezas.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Reina.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Reina.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Rey.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Rey.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Tablero.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Tablero.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Torre.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Torre.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="bmp.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="bmp.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="igvCamara.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="igvCamara.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="igvColor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="igvColor.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="igvEscena3D.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="igvEscena3D.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="igvFuenteLuz.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="igvFuenteLuz.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="igvInterfaz.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="igvInterfaz.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="igvMallaTriangulos.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="igvMallaTriangulos.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="igvMaterial.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="igvMaterial.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="igvPunto3D.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="igvPunto3D.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="igvTextura.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="igvTextura.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="pr4.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Alfil.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Alfil.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Caballo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Caballo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Casillas.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Peon.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Peon.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Piezas.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Piezas.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Reina.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Reina.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Rey.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Rey.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Tablero.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Tablero.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Torre.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Torre.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="bmp.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="bmp.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="igvCamara.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="igvCamara.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="igvColor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="igvColor.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="igvEscena3D.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="igvEscena3D.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="igvFuenteLuz.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="igvFuenteLuz.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="igvInterfaz.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="igvInterfaz.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="igvMallaTriangulos.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="igvMallaTriangulos.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="igvMaterial.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="igvMaterial.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="igvPunto3D.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="igvPunto3D.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="igvTextura.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="igvTextura.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="pr4.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
